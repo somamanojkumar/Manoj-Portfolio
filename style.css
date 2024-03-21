@@ -257,7 +257,7 @@ gap: 1rem;
     gap: 1rem;
 }
 
-/*ABOUT section*/
+/*ABOUT SECTION*/
 
 #about{
 position: relative;
@@ -299,6 +299,12 @@ position: relative;
     text-align: center;
 }
 
+.text-container{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
 .section-container{
     gap: 4rem;
     height: 80%;
@@ -310,7 +316,7 @@ position: relative;
     margin: auto 0;
 }
 
-/*EXPERIENCE*/
+/*EXPERIENCE SECTION*/
 
 #experience{
     position: relative;
@@ -378,7 +384,7 @@ article.icon{
 
 .project-img:hover{
     transform: scale(1.05);
-    transition: 2ms;
+    transition: 0.3 ms;
 }
 
 /*CONTACT*/
